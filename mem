@@ -1,0 +1,16 @@
+@bot.command()
+async def mem(ctx):
+    images = os.listdir('image')
+    rarity = {'mem1': 8, 'mem2' : 5, 'mem3' : 3, 'My-mem' : 1}
+    image_rarity = []
+    for image in images:
+        if image in rarity:
+            image_rarity.extend([image]*rarity[image])
+        else:
+            image_rarity.append(image)
+    ftt = random.choice(image_rarity)
+    with open(f'image/{ftt}', 'rb') as f:
+        # В переменную кладем файл, который преобразуется в файл библиотеки Discord!
+        picture = discord.File(f)
+   # Можем передавать файл как параметр!
+    await ctx.send(file=picture)
