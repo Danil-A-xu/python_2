@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
     <title>Интернет зависимости нашего времени</title>
@@ -24,7 +24,11 @@
                    
              </ul>
      <img src="https://a.d-cd.net/34a47du-960.jpg" alt="Image 1 " width="50%" >
-     <img src="https://prezentacii.org/upload/cloud/19/02/121863/images/screen15.jpg" alt="interesting facts" width="40%" height="600" style="position: relative; left: 4cm">
+     <img src="https://prezentacii.org/upload/cloud/19/02/121863/images/screen15.jpg" alt="interesting facts" width="40%" height="600" style="position: relative; left: 2cm">
+     <p>Здесь вы можете узнать,когда будет хорошая погода,чтобы провести время на воздухе и избавится от интернет-зависимость.</p>
+     <center>
+     <iframe src="https://www.meteoblue.com/en/weather/widget/three/ip_romania_675514?geoloc=fixed&nocurrent=1&noforecast=0&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 460px; height: 491px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/ip_romania_675514?utm_source=three_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div>
+     </center>
 </body>
 </html>
 --------------------------------------------------------------------------
@@ -46,3 +50,90 @@ h2 {
 h4 {
     color: #981212; /* Цвет заголовка */
 }
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+
+
+h2 {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+h3 {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+h4 {
+    animation-duration: 6s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  p {
+    animation-duration: 8s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
